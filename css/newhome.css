@@ -1,0 +1,162 @@
+div#tabs {
+      height: auto;
+    overflow: auto;
+    width: 100%;
+}
+.ui-tabs.ui-tabs-vertical {
+    padding: 0;
+    width: 42em;
+}
+.ui-tabs.ui-tabs-vertical .ui-widget-header {
+    border: none;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav {
+    float: left;
+    width: 30%;
+    background: #fff;
+    border-radius: 4px 0 0 4px;
+    border-right: 0px;
+    padding-left: 10px;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
+    clear: left;
+    width: 90%;
+    margin: 0.2em 0;
+    overflow: hidden;
+    position: relative;
+    right: -2px;
+    z-index: 2;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a {
+    display: block;
+    width: 100%;
+
+   /* padding: 0.6em 1em;*/
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:hover {
+    cursor: pointer;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: 0.2em;
+    padding-bottom: 0;
+    border-right: 0px;
+     border-bottom: 1px solid #c6c6c6;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li:last-child {
+    margin-bottom: 10px;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    text-align: justify;
+    border-left: 0px;
+    border-radius: 0;
+    position: relative;
+    left: -1px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+header.header {
+    position: fixed;
+    background: #f1f1f1;
+}
+div.header-container {
+    width: 96%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #fff;
+    height: auto;
+    /* overflow: auto; */
+}
+div.logo {
+    width: 20%;
+    border: 1px solid red;
+    float: left;
+}
+div.logo:after {
+    content: '';
+    
+}
+div.logo img {
+    width: 100%;
+}
+div.navbar {
+    width: 80%;
+    float: left;
+    /* border: 1px solid #000; */
+}
+ul.navi {
+    position: absolute;
+}
+ul.navi, ul.nav1,  {
+    border: 1px solid green;
+    margin: 0;
+    box-sizing: border-box;
+    height: auto;
+    /* overflow: auto; */
+}
+ul.nav2 {
+    
+}
+
+ ul.navi li {
+     border: 1px solid brown;
+     width: 100px;
+     text-align: center;
+     position: relative;
+     float: left;
+     margin-right: 5px;
+ }
+ ul.navi  .drpdown {
+    width: 150px;
+    text-align: center;
+}
+ ul.navi  .drpdown > a {
+     width: 150px;
+ }
+ ul.navi a {
+     display: block;
+     width: 100px;
+/*      height: 25px; */
+     line-height: 25px;
+     cursor: pointer;
+ }
+ ul.navi ul.nav2 {
+    box-sizing: border-box;
+    height: auto;
+    
+ } 
+ ul.navi li {
+     border-radius: 2px;
+ }
+ ul.navi ul.nav1 {
+     display: none;
+ }
+ul.navi li:hover > a {
+    background: #cf1e2a;
+    color: #fff;
+}
+ul.navi li:hover .nav1 {
+    display: block;
+}
+/* ul.navi ul.nav1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    
+}
+ */
+
+
+
+
+
+
+
+/* =======carousel===== */
+#myCarousel {
+    z-index: -1;
+}
+/* ====carousel end===== */

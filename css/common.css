@@ -1,0 +1,329 @@
+div#main-section-container {
+	/* margin-top: -100px; */
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+     /* box-shadow: 0px 0px 25px !important; */
+     color: #eae7e7 !important;
+}
+.card.main-card p:nth-of-type(1) {
+	/*border-left: 10px solid #f1f1f1;
+	padding-left: 16px;*/
+}
+div.rightcolumn .item > img{
+	width: 100% !important;
+	height: 140px !important;
+}
+div.rightcolumn .item b {
+	font-weight: 400;
+	font-size: 14px;
+}
+form.nav-form {
+	z-index: 999;
+}
+hr:last-of-type {
+	display: none;
+}
+/* #footer1 {
+	margin-top: -35px;
+}
+ */.video {
+	width: 100%;
+	height: 100%;
+}
+div.pages {
+	display: flex;
+	flex-wrap: nowrap;
+	margin-left: -15px;
+}
+div.pages a {
+	color: #000;
+	font-size: 14px;
+	width: 50px;
+	text-align: center;
+	display: block;
+	margin: 0 10px;
+	text-decoration: none;
+}
+div.pages .active-no {
+	color: #fff;
+	background: #cf1e2a;
+}
+div.pages a:hover:not(.active-no) {
+	background: #ddd;
+}
+
+/* ------------------------------------------ */
+* {
+    box-sizing: border-box;
+}
+/* new items */
+.midcolumn .card:nth-of-type(1) h2 {
+  text-align: center;
+  color: #cf1e2a;
+  /* margin:auto; */
+  font-family: sans-serif;
+  font-size: 28px;
+}
+.midcolumn .card-two h2 {
+	text-align: center;
+  color: #cf1e2a;
+}
+/* new items */
+body {
+    font-family: Arial;
+    background: #fff;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 16%;
+    background-color: #fff;
+    padding:0 10px;
+    padding-left: 20px; 
+}
+.midcolumn {
+float: left;
+width: 60%;
+background-color: #fff;
+/* padding:0 10px; */
+}
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 24%;
+	background-color: #fff;
+    padding:0 10px;
+    padding-right: 20px;
+    overflow-x: hidden;
+}
+.leftcolumn, .midcolumn, .rightcolumn {
+  padding-bottom: 10px;
+}
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+.fakeimg.main-img {
+  width: 40%;
+  margin-right: 10px;
+  float:left;
+  padding: 0;
+}
+.card p {
+ font-size: 16px;
+    line-height: 1.6em;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    /* box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) */;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table !important;
+    clear: both !important;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn, .midcolumn {   
+        width: 100%;
+        float: clear;
+    }
+    .card.list-align {
+      text-align:center;
+    }
+    .midcolumn  p {
+  	text-align: justify;
+  	word-break: break-all;
+	}
+	div.pages a:first-of-type {
+		display: none;
+	} 
+	div.pages a:last-of-type {
+		display: none;
+	}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+/* ------------------------------------------ */
+@media screen and (max-width: 800px) {
+	#footer1 p {
+		font-size: 9px !important;
+	}
+	div.column-area {
+	width: 100%;
+}
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+	}
+
+th {
+    /* background-color: #4CAF50; */
+    background-color: #cf1e2a;
+    color: #fff !important;
+}
+th:first-of-type {
+	border-top-left-radius: 4px;
+}
+th:last-of-type {
+	border-top-right-radius: 4px;
+}
+div.column {
+	width: 100%;
+}
+/* ------------------------------------------ */
+div.column-area {
+	width: 33.33%;
+	float: left;
+}
+/* reflection page */
+
+div.photo-overlay {
+	width: 100%;
+	height: 100%;
+	/* padding: 100px; */
+	background-color: rgba(0, 0, 0, 0.7) !important;
+	color: #cf1e2a;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	margin: 0 auto;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-size: 800px !important;
+}
+div.close-photo-overlay {
+	font-size: 26px;
+    /* border: 2px solid #cf1e2a; */
+    position: absolute;
+    right: 18%;
+    top: 15%;
+    padding: 2px 8px 6px 8px;
+    border-radius: 5%;
+    z-index: 10001;
+}
+div.close-photo-overlay img {
+	width: 20px;
+	height: 20px;
+}
+/* Aerospace special accord */
+button.accord {
+	width: 100%;
+	background: #fff;
+	padding: 10px;
+	text-align: left;
+	color: black;
+	letter-spacing: 1px;
+	outline: none;
+	box-shadow: none;
+	border: none;
+}
+button.accord:after {
+	content: '\25BE';
+	float: right;
+	margin-left: 5px;
+	font-weight: bold;
+	color: #cf1e2a;
+} 
+.accord:after {
+	
+}
+button.accord {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.accord:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.active {
+	background: rgba(0, 0, 0, 0) !important;
+}
+.active:after {
+    /*content: '\2212' !important;
+    color: #cf1e2a;*/
+}
+div.pannel {
+	padding-left: 10px;
+	/* max-height: 0;*/
+	display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+div.pannel p {
+	margin: 15px 0;
+}
+div.column-accord {
+	width: 100%;
+}
+div.card:nth-of-type(2) {
+	margin-top: 0;
+}
+div.card:nth-of-type(3) {
+	margin-top: 0;
+}
+.line {
+			width: 100%;
+			height: 2px;
+			background: #cf1e2a;
+		}
+
+div.shadow {
+	position: absolute;
+    width: 100%;
+    bottom: -30px;
+    height: 20px;
+    /* background: #000; */
+    /* box-shadow: 0 -10px 15px rgba(0, 0, 0, 1); */
+    box-shadow: 0px -5px 40px #000;
+}
+@media (max-width: 400px) {
+	div.photo-overlay { 
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-size: 350px !important;
+}
+}

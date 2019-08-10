@@ -1,0 +1,59 @@
+div#tabs {
+      height: auto;
+    overflow: auto;
+    width: 100%;
+}
+.ui-tabs.ui-tabs-vertical {
+    padding: 0;
+    width: 42em;
+}
+.ui-tabs.ui-tabs-vertical .ui-widget-header {
+    border: none;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav {
+    float: left;
+    width: 30%;
+    background: #fff;
+    border-radius: 4px 0 0 4px;
+    border-right: 0px;
+    padding-left: 10px;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
+    clear: left;
+    width: 90%;
+    margin: 0.2em 0;
+    overflow: hidden;
+    position: relative;
+    right: -2px;
+    z-index: 2;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a {
+    display: block;
+    width: 100%;
+
+   /* padding: 0.6em 1em;*/
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:hover {
+    cursor: pointer;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: 0.2em;
+    padding-bottom: 0;
+    border-right: 0px;
+     border-bottom: 1px solid #c6c6c6;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li:last-child {
+    margin-bottom: 10px;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    text-align: justify;
+    border-left: 0px;
+    border-radius: 0;
+    position: relative;
+    left: -1px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
